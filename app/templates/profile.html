@@ -1,0 +1,30 @@
+{% extends 'base.html'%}
+{%block main%}
+<div class="everything">
+<div class="top">
+<link rel="stylesheet" href=" {{url_for('static', filename='css/app.css')}}">
+<img src="{{url_for('static', filename='piggy.jpg')}}"/>
+<h1>Caysi Morgan</h1>
+<h6> @caysi.morgan</h6>
+<h6> Clarendon, Jamaica</h6>
+<h6>Joined {{ date_joined }}</p> </h6>
+</div>
+<div class="nextpart">
+<br>
+<p> Here have a cookie🍘</p>
+<div class="lastpart">
+<table> 
+<tr>
+    <th> 12</th>  <th> 800</th> <th> 3500</th>
+</tr>
+<tr>
+    <td> posts</td>  <td> following</td> <td> followers</td>
+</tr>
+</table>
+</div>
+<br>
+<button> follow</button>
+
+{%endblock%}
+</div>
+</div>
